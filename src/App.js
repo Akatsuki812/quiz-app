@@ -17,6 +17,7 @@ function App() {
       {appState ==="menu" && <Menu/>}
       {appState ==="quiz" && <Quiz/>}
       {appState ==="score" && <Score/>}
+              {appState === "score" && <Score />}
     </div>
     </DataContext.Provider>
   );
